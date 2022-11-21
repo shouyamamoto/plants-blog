@@ -64,3 +64,19 @@
   margin-bottom: 12px;
   opacity: 0.65;
 }
+
+.tags {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background-color: #023117;
+  color: #fff;
+  font-size: 12px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+}

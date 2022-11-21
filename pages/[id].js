@@ -110,7 +110,7 @@ const renderBlock = (block) => {
       return (
         <figure>
           <img src={src} alt={caption} />
-          {caption && <figcaption>{caption}</figcaption>}
+          {caption && <figcaption className={styles.figcaption}>{caption}</figcaption>}
         </figure>
       );
     case "divider":
